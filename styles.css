@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    padding: 3%;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#quiz, #main, #high {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.highscores {
+    float: left;
+    color: purple;
+    cursor: pointer;
+}
+
+.timer {
+    text-align: right;
+}
+
+h3 {
+    margin-top: 3vh;
+    line-height: 1.5em;
+}
+
+#start {
+    margin-top: 3vh;
+    width: 20%;
+    height: 4vh;
+    border-radius: 5%;
+    font-size: 1em;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+
+#codeQuestions {
+    font-size: 1.17em;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.choice {
+    font-size: 1.2em;
+    margin-left: 2%;
+    line-height: 3em;
+    background-color: purple;
+    color: white;
+    padding: 1%;
+    border-radius: 5%;
+}
+
+#correction {
+    font-size: 1.2em;
+    padding-left: 40px;
+    padding-top: 2vh;
+    color: grey;
+    font-style: italic;
+}
+
+#main, #high {
+    padding-left: 40px;
+}
+
+#main p, #main span {
+    font-size: 1.17em;
+}
+
+#main span {
+    margin-right: 2%;
+}
+
+.submit, .goback, .clear {
+    font-size: 1em;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+.goback {
+    margin-left: 0;
+}
+
+.name {
+    font-size: 1.17em;
+    background-color: purple;
+    opacity: 0.5;
+    color: white;
+    padding: 1%;
+    min-height: 2em;
+}
